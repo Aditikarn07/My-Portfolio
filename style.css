@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;1,200&family=Source+Serif+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:ital,wght@0,300;1,200&family=Source+Serif+Pro:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(156, 154, 154);
+    
+    font-family: 'Fira Sans', sans-serif;
+    height: 120vh;
+    
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow;  */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    /* background-color: rgb(0, 26, 255); */
+    height: 54vh;
+    width: 70vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+
+    height: 54vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.hello {
+    font-size: 41px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.name {
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.moreabout {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 24px;
+
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 9px 16px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+@media (max-width: 1610px) {
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{margin-left: 160px;
+
+}
+.contactform {
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h2 {
+    margin-top: 25px;
+    padding: 10px 0;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.contactform form div {
+    padding: 18px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: -2px 0;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 20px;
+    margin: 3px 0;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Source Serif Pro', serif;
+}
+.intro h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    font-size: 25px;
+}
+.intro p{
+    font-family: 'Source Serif Pro', serif;
+    margin: 22px;
+    font-size: 18px;
+
+}
+.intro pre{
+    font-family: 'Source Serif Pro', serif;
+    margin: 22px;
+    font-size: 18px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItems{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.skill{
+    width: 265px;
+    height: 9px;
+    background-color: red;
+    
+}
+.hundred{
+    width: 256px;
+    background-color: red;
+}
+.seventy{
+    width: 200px;
+    background-color: green;
+}
+.fifty{
+    width: 125px;
+    background-color: royalblue;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.awdPic img{
+    margin-left: 89px;
+    width: 43vw;
+    padding-right: 224px;
+}
+.awdPic {
+    height: 5vh;
+    align-items: end;
+    padding: 560px 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.photos{
+       display: none;
+}
+.mycontainer{
+    width: 89vw;
+    height: 45vh;
+    text-align: center;
+    margin-left: 247px;
+    margin-right: 43px;
+    margin-top: -708px;
+}
+.mycontainer h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+}
+.mycontainer h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+
+    
+}
+.top-content{
+    background-color: rgb(243, 243, 243);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgrey;
+
+}
+h3{
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    line-height: 60px;
+    padding: 0 50px;
+    color: white;
+    
+}
+.content{
+    display: inline-block;
+    height: 100%;
+    padding: 0 5px;
+   font-size: 18px;
+   color: gray;
+   cursor: pointer;
+    margin: 0 20px;
+    transition: .5s;
+    line-height: 60px;
+}
+label{
+    display: inline-block;
+    height: 100%;
+    padding: 0 5px;
+   font-size: 18px;
+   color: gray;
+   cursor: pointer;
+    margin: 0 20px;
+    transition: .5s;
+    line-height: 60px;
+}
+
+
+label:hover{
+    color: black;
+}
+.photo-gallery{
+    width: 30vw;
+    margin: auto;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     grid-gap: -299px;
+}
+.pic{
+    position: relative;
+    height: 22vw;
+    width: 20vw;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.pic img{
+    width: 18vw;
+    height: 45vh;
+    border-radius: 10px;
+    transition: 5s;
+}
+.pic::before{
+    content: "PAINTING GALLERY";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+    z-index: 1;
+}
+.pic::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 100%;
+    
+    transition: .3s;
+}
+.pic:hover::after{
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+}
+.pic:hover::before{
+    margin-top: 0;
+    opacity: 1;
+
+}
+#check1:checked ~ .mycontainer .photo-gallery .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+#check2:checked ~ .mycontainer .photo-gallery .madhubani{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#check2:checked ~ .mycontainer .photo-gallery .simple,
+#check2:checked ~ .mycontainer .photo-gallery .mandala
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+}
+#check3:checked ~ .mycontainer .photo-gallery .simple{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#check3:checked ~ .mycontainer .photo-gallery .madhubani,
+#check3:checked ~ .mycontainer .photo-gallery .mandala
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+}
+#check4:checked ~ .mycontainer .photo-gallery .mandala{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#check4:checked ~ .mycontainer .photo-gallery .madhubani,
+#check4:checked ~ .mycontainer .photo-gallery .simple
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+}
+ 
+.video{
+  
+    margin: 847px;
+    padding: -23px;
+    width: 56vw;
+    height: 86vh;
+}
+
+
+
+
